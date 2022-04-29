@@ -1,5 +1,4 @@
-
-// creating an object --  in this case a specific restaurnat we want to add to our db 
+// creating an object --  in this case a specific restaurant we want to add to our db 
  const restaurant = {      
      name: 'Mister 01',
      address: '555 N Federal',
@@ -19,7 +18,7 @@ const restaurant2 = {
     rating: 4.6,
 }
 
-async function addRestauarant(data){ // 
+async function addRestaurant(data){ // 
     try {
     const doc = await db.collection('restaurants').add(restaurant2) // add restaurant to collection
     console.log('Created restaurant', doc.id) // handle resolve
@@ -28,4 +27,5 @@ async function addRestauarant(data){ //
     }
 } 
 
-addRestauarant(restaurant2)
+addRestaurant(restaurant2)
+
