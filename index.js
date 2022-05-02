@@ -1,3 +1,6 @@
+
+import { restaurantCol } from "./connectDb"
+
 // creating an object --  in this case a specific restaurant we want to add to our db 
  const restaurant = {      
      name: 'Mister 01',

@@ -6,6 +6,6 @@ admin.initializeApp({ // connects to our firebase project - the door
 });
 
 const db = admin.firestore(); // creates a shortcut to access the Firestore database 
- export const restaurantCol = db.collection('restaurants'); // shortcut to point to this collection. not needed. 
+export const restaurantCol = db.collection('restaurants'); // shortcut to point to this collection. not needed. 
 
 
